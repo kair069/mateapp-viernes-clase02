@@ -1,0 +1,145 @@
+>>> edad = 20
+>>> print('edad ')
+edad
+>>> print(edad)
+20
+>>> base = 10
+>>> altura = 3
+>>> area = base*altura/2
+>>> print('el area es:',area)
+el area es: 15.0
+>>>
+>>>
+>>> #ESTO ESUN COMENTARIO
+>>> #suma
+>>> a05
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a05' is not defined
+>>> a=5
+>>> b=6
+>>> suma=a+b
+>>> print(Suma)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Suma' is not defined
+>>> print(suma)
+11
+>>> #resta
+>>>
+>>> resta=a-b
+>>> print(resta)
+-1
+>>> #multiplicacion
+>>>
+>>> multiplicacion = a*b
+>>> print(multiplicacion)
+30
+>>>
+>>> division=a/b
+>>> print(division)
+0.8333333333333334
+>>> #potencia= a**b
+>>> potencia=a**b
+>>> print(potencia)
+15625
+>>>Microsoft Windows [Versión 10.0.19042.928]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Usuario>python
+Python 3.9.2 (tags/v3.9.2:1a79785, Feb 19 2021, 13:44:55) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> edad = 20
+>>> print('edad ')
+edad
+>>> print(edad)
+20
+>>> base = 10
+>>> altura = 3
+>>> area = base*altura/2
+>>> print('el area es:',area)
+el area es: 15.0
+>>>
+>>>
+>>> #ESTO ESUN COMENTARIO
+>>> #suma
+>>> a05
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a05' is not defined
+>>> a=5
+>>> b=6
+>>> suma=a+b
+>>> print(Suma)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Suma' is not defined
+>>> print(suma)
+11
+>>> #resta
+>>>
+>>> resta=a-b
+>>> print(resta)
+-1
+>>> #multiplicacion
+>>>
+>>> multiplicacion = a*b
+>>> print(multiplicacion)
+30
+>>>
+>>> division=a/b
+>>> print(division)
+0.8333333333333334
+>>> #potencia= a**b
+>>> potencia=a**b
+>>> print(potencia)
+15625
+>>> print('la potencia es:' )
+la potencia es:
+>>> print('la potenciaes:',potencia)
+la potenciaes: 15625
+>>> #operaciones complejas
+>>> realizar lasiguiente operacion en python
+  File "<stdin>", line 1
+    realizar lasiguiente operacion en python
+             ^
+SyntaxError: invalid syntax
+>>> #realizar la siguient operacione ne pyhotn
+>>> #((4+5)*3)/2
+>>> x=4
+>>> y=5
+>>> w=3
+>>> z=2
+>>>
+>>> print((x+y)*w)/z
+27
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'int'
+>>> print((x+y)*w/z)
+13.5
+>>> ((4+5)*3)/2
+13.5
+>>> operacion=((x+y)*w)/z
+>>> print(operacion)
+13.5
+>>> str1 ='a'
+>>> str2 ='b'
+>>> resultado = str1 + str2
+>>> print(resultado)
+ab
+>>> print(resultado*5)
+ababababab
+>>> caracteres = len("hola mundo")
+>>> print(caracteres)
+10
+>>> name=input('cual es tu nombre?')
+cual es tu nombre?
+>>> print('hola'.name)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'name'
+>>> name = input('cual es tu nombre');
+cual es tu nombre
+>>> print('hola'+ name)
+hola
